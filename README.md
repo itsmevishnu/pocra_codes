@@ -3,6 +3,8 @@ This is a simple python code for downloding csv files from http://115.124.110.19
 - Reguired packages and software
   - Pandas `pip install pandas`
   - Selenium `pip install selenium`
+  - Beutifulsoup `pip install beautifulsoup4`
+  - Requests
   - Firefox web browser
   - Python version: 3
   - OS: Linux
