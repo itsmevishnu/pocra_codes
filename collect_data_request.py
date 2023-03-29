@@ -11,7 +11,7 @@ def collect_data(**args):
     """
     Send a request to the server and parse the table, and return the dataset
     """
-    URL = URL = f"http://115.124.110.196:8080/epeek/rptViewDist.jsp?ccode=-&blk=-&dist=-&\
+    URL = f"http://115.124.110.196:8080/epeek/rptViewDist.jsp?ccode=-&blk=-&dist=-&\
         div={args['division_en']}&season={args['season']}&divName={args['division']}&distName={args['district']}\
         &blkName=सर्व&ccodeName=सर्व&seasonName={args['season']}"
     page = requests.get(URL) # reads html pages
