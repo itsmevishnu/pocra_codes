@@ -1,0 +1,1272 @@
+1680029632596	geckodriver	INFO	Listening on 127.0.0.1:44959
+1680029633251	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "34615" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI1r3Cp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=1.15342) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680029634599	Marionette	INFO	Marionette enabled
+1680029634611	Marionette	INFO	Listening on port 35093
+Read port: 35093
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:34615
+1680029635028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI1r3Cp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34615/devtools/browser/8c245e99-d7d4-4065-940b-be3001e18c26
+1680029677839	Marionette	INFO	Stopped listening on port 35093
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1680029956278	geckodriver	INFO	Listening on 127.0.0.1:48611
+1680029956869	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "52495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileePlj0I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.591608) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680029957526	Marionette	INFO	Marionette enabled
+1680029957530	Marionette	INFO	Listening on port 39321
+Read port: 39321
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:52495
+1680029957811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileePlj0I/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52495/devtools/browser/1a167858-e388-4017-a259-c9a448fca945
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680029965861	Marionette	INFO	Stopped listening on port 39321
+1680030319197	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1680031007446	geckodriver	INFO	Listening on 127.0.0.1:39893
+1680031007538	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "34653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileolHOuQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.718512) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680031008371	Marionette	INFO	Marionette enabled
+1680031008380	Marionette	INFO	Listening on port 36247
+Read port: 36247
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:34653
+1680031008630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileolHOuQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34653/devtools/browser/1675e5df-85eb-4a39-93e2-ecceabab3a87
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680031043128	Marionette	INFO	Stopped listening on port 36247
+1680031044509	geckodriver	INFO	Listening on 127.0.0.1:45907
+1680031044597	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "41839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXkRyZp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.61368) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680031045312	Marionette	INFO	Marionette enabled
+1680031045321	Marionette	INFO	Listening on port 43011
+Read port: 43011
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:41839
+1680031045615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXkRyZp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41839/devtools/browser/f5588746-b749-4083-a91a-73d7b415d9f3
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680031629391	geckodriver	INFO	Listening on 127.0.0.1:55491
+1680031629457	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "35491" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6xHwWO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.551986) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680031630074	Marionette	INFO	Marionette enabled
+1680031630080	Marionette	INFO	Listening on port 40371
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 40371
+WebDriver BiDi listening on ws://127.0.0.1:35491
+1680031630326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6xHwWO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35491/devtools/browser/1781f788-e566-4184-8c2e-ea4d6f81107a
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680031645847	Marionette	INFO	Stopped listening on port 40371
+1680031780102	geckodriver	INFO	Listening on 127.0.0.1:57425
+1680031780157	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "43245" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefTtk9L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.572278) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680031780802	Marionette	INFO	Marionette enabled
+1680031780807	Marionette	INFO	Listening on port 36805
+Read port: 36805
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:43245
+1680031781056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefTtk9L/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43245/devtools/browser/2fcc5582-5f0d-445d-8a91-3df813bce5e6
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680031794536	Marionette	INFO	Stopped listening on port 36805
+1680031825044	Marionette	INFO	Stopped listening on port 43011
+1680031827271	geckodriver	INFO	Listening on 127.0.0.1:44659
+1680031827894	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "60743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAZhi0n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.622109) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680031828613	Marionette	INFO	Marionette enabled
+1680031828624	Marionette	INFO	Listening on port 34995
+Read port: 34995
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:60743
+1680031829030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAZhi0n/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60743/devtools/browser/df2f508f-2713-4ac8-9219-3ec271f292d5
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.error: "stylesheets: fetch failed for http://115.124.110.196:8080/epeek/assets/css/material-dashboard.css?v=2.1.0, using system principal instead."
+console.error: "stylesheets: fetch failed for http://115.124.110.196:8080/epeek/assets/css/material-dashboard.css?v=2.1.0, using system principal instead."
+console.error: "stylesheets: fetch failed for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css, using system principal instead."
+1680031873186	Marionette	INFO	Stopped listening on port 34995
+1680032260455	geckodriver	INFO	Listening on 127.0.0.1:44781
+1680032260523	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "45707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAGvcH0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.538617) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680032261141	Marionette	INFO	Marionette enabled
+1680032261149	Marionette	INFO	Listening on port 42567
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 42567
+WebDriver BiDi listening on ws://127.0.0.1:45707
+1680032261373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAGvcH0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45707/devtools/browser/804d37f8-e39c-4e88-b3a8-b2193679b5c4
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680032297450	geckodriver	INFO	Listening on 127.0.0.1:43021
+1680032298060	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "37135" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekhN4XI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.654886) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680032298800	Marionette	INFO	Marionette enabled
+1680032298804	Marionette	INFO	Listening on port 42921
+Read port: 42921
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:37135
+1680032299062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekhN4XI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37135/devtools/browser/502db315-b183-45d3-af12-fcf46a8b9f41
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680032321198	Marionette	INFO	Stopped listening on port 42921
+1680032350986	geckodriver	INFO	Listening on 127.0.0.1:44041
+1680032351587	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "53247" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileWAHC6g"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.63449) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680032352292	Marionette	INFO	Marionette enabled
+1680032352298	Marionette	INFO	Listening on port 45243
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 45243
+WebDriver BiDi listening on ws://127.0.0.1:53247
+1680032352587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWAHC6g/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53247/devtools/browser/60918611-36a9-40ed-aee2-2e3bf79f1200
+1680032365915	Marionette	INFO	Stopped listening on port 42567
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680032379348	Marionette	INFO	Stopped listening on port 45243
+1680032388083	geckodriver	INFO	Listening on 127.0.0.1:49151
+1680032388735	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "34671" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4fUsto"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.585757) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680032389408	Marionette	INFO	Marionette enabled
+1680032389418	Marionette	INFO	Listening on port 40255
+Read port: 40255
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:34671
+1680032389653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4fUsto/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34671/devtools/browser/f9f228fb-89a4-48ed-bd45-00fac76b6b45
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1680032430248	Marionette	INFO	Stopped listening on port 40255
+1680032860313	geckodriver	INFO	Listening on 127.0.0.1:34511
+1680032860937	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "52241" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelCHITm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.957749) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680032862035	Marionette	INFO	Marionette enabled
+1680032862047	Marionette	INFO	Listening on port 39375
+Read port: 39375
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:52241
+1680032862335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelCHITm/search.json.mozlz4", (void 0)))
+1680032866515	Marionette	INFO	Stopped listening on port 39375
+1680032866575	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+Exiting due to channel error.
+Exiting due to channel error.
+1680032901980	geckodriver	INFO	Listening on 127.0.0.1:42195
+1680032902078	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "37959" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFRANrx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.598591) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680032902751	Marionette	INFO	Marionette enabled
+1680032902759	Marionette	INFO	Listening on port 40983
+Read port: 40983
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:37959
+1680032903001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFRANrx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37959/devtools/browser/708a471d-9044-4024-a53a-843b1c277341
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680033620693	geckodriver	INFO	Listening on 127.0.0.1:48305
+1680033620783	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "45131" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileRptfXV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.533608) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680033621383	Marionette	INFO	Marionette enabled
+1680033621389	Marionette	INFO	Listening on port 37993
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 37993
+WebDriver BiDi listening on ws://127.0.0.1:45131
+1680033621636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRptfXV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45131/devtools/browser/7af65095-3c70-4e56-98e1-6b8ee9ef6ebd
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680033671843	geckodriver	INFO	Listening on 127.0.0.1:53593
+1680033672443	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "60123" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileI8tOfS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.73878) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680033673297	Marionette	INFO	Marionette enabled
+1680033673308	Marionette	INFO	Listening on port 43221
+Read port: 43221
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:60123
+1680033673602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileI8tOfS/search.json.mozlz4", (void 0)))
+1680033676668	Marionette	INFO	Stopped listening on port 37993
+DevTools listening on ws://127.0.0.1:60123/devtools/browser/314e834d-0b2f-4e5d-985f-c0e07e3aefde
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680033737743	Marionette	INFO	Stopped listening on port 43221
+1680033740327	Marionette	INFO	Stopped listening on port 40983
+1680033771791	geckodriver	INFO	Listening on 127.0.0.1:36461
+1680033771958	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "49319" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileF6YnjC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.708256) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680033772767	Marionette	INFO	Marionette enabled
+1680033772773	Marionette	INFO	Listening on port 43649
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 43649
+WebDriver BiDi listening on ws://127.0.0.1:49319
+1680033773034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF6YnjC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49319/devtools/browser/aeecc298-d20e-440c-8ace-76713bd9fb6d
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680063968191	Marionette	INFO	Stopped listening on port 43649
+1680064500870	geckodriver	INFO	Listening on 127.0.0.1:53543
+1680064501473	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "39973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVOsTB8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.790992) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680064502384	Marionette	INFO	Marionette enabled
+1680064502396	Marionette	INFO	Listening on port 33593
+Read port: 33593
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:39973
+1680064502720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVOsTB8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39973/devtools/browser/6c1669a2-d675-4ae1-b9c6-03ae9ce66c3a
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680064581996	Marionette	INFO	Stopped listening on port 33593
+1680064635827	geckodriver	INFO	Listening on 127.0.0.1:53397
+1680064636475	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "40097" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMdvJMj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.637634) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680064637198	Marionette	INFO	Marionette enabled
+1680064637202	Marionette	INFO	Listening on port 39533
+Read port: 39533
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:40097
+1680064637501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMdvJMj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40097/devtools/browser/ae1d7e46-87b5-416a-9ac3-d90da737726e
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680064721173	geckodriver	INFO	Listening on 127.0.0.1:33723
+1680064721775	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "51673" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKBuBvx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.778533) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680064722639	Marionette	INFO	Marionette enabled
+1680064722643	Marionette	INFO	Listening on port 39913
+Read port: 39913
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:51673
+1680064722958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKBuBvx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51673/devtools/browser/bbf6efd3-e64b-49f4-b9ca-be3aeed92569
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680064752734	Marionette	INFO	Stopped listening on port 39913
+1680064807654	Marionette	INFO	Stopped listening on port 39533
+1680065337717	geckodriver	INFO	Listening on 127.0.0.1:59405
+1680065337984	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "39865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilekc31k9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.20541) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680065340486	Marionette	INFO	Marionette enabled
+1680065340509	Marionette	INFO	Listening on port 43079
+Read port: 43079
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:39865
+1680065341372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekc31k9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39865/devtools/browser/f7b89f22-937b-4406-ba4c-e74a1879d7cb
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680065370802	Marionette	INFO	Stopped listening on port 43079
+1680065514976	geckodriver	INFO	Listening on 127.0.0.1:38477
+1680065515879	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "58549" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKsIFVu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.23612) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680065518404	Marionette	INFO	Marionette enabled
+1680065518426	Marionette	INFO	Listening on port 35901
+Read port: 35901
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:58549
+1680065519256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKsIFVu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58549/devtools/browser/f2f955e6-07a9-4903-b0ee-244f5f47fe22
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+console.warn: "Inspector destroyed while executing onReflow callback"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450947/domwalker21, type getNodeActorFromContentDomReference failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:300:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19
+getNodeActorFromContentDomReference@resource://devtools/client/fronts/walker.js:157:34
+getNodeActorFromContentDomReference@resource://devtools/client/fronts/inspector.js:287:19
+
+console.error: "stylesheets: fetch failed for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css, using system principal instead."
+1680065657269	Marionette	INFO	Stopped listening on port 35901
+console.error: "stylesheets: fetch failed for https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css, using system principal instead."
+1680065813907	geckodriver	INFO	Listening on 127.0.0.1:53387
+1680065814834	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "45071" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyZkWJG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.44019) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680065817559	Marionette	INFO	Marionette enabled
+1680065817579	Marionette	INFO	Listening on port 43975
+Read port: 43975
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:45071
+1680065818411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyZkWJG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45071/devtools/browser/320c3496-699d-466a-935b-24a1ebac852e
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680065893974	geckodriver	INFO	Listening on 127.0.0.1:53097
+1680065894208	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "36451" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTuj8jO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.45836) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680065896939	Marionette	INFO	Marionette enabled
+1680065896959	Marionette	INFO	Listening on port 36369
+Read port: 36369
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:36451
+1680065897780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTuj8jO/search.json.mozlz4", (void 0)))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+DevTools listening on ws://127.0.0.1:36451/devtools/browser/3634e1f5-4454-4916-9fea-6d0a155c336c
+1680065909891	Marionette	INFO	Stopped listening on port 43975
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680065970966	Marionette	INFO	Stopped listening on port 36369
+1680066049719	geckodriver	INFO	Listening on 127.0.0.1:44167
+1680066050624	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "44415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiley5rfmt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.55654) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680066053521	Marionette	INFO	Marionette enabled
+1680066053546	Marionette	INFO	Listening on port 44047
+Read port: 44047
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:44415
+1680066054549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley5rfmt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44415/devtools/browser/138464eb-11bc-4462-b844-e06d488045ce
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680066790686	geckodriver	INFO	Listening on 127.0.0.1:58673
+1680066791424	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "52899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4BlDMc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.1418) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680066793894	Marionette	INFO	Marionette enabled
+1680066793931	Marionette	INFO	Listening on port 36773
+Read port: 36773
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:52899
+1680066794792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4BlDMc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52899/devtools/browser/bf83b23b-42ff-45d8-80c7-fff6b0dea050
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680066875117	Marionette	INFO	Stopped listening on port 36773
+1680066878900	geckodriver	INFO	Listening on 127.0.0.1:34017
+1680066879623	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "50967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZxE56t"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.31411) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680066882224	Marionette	INFO	Marionette enabled
+1680066882247	Marionette	INFO	Listening on port 44569
+Read port: 44569
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50967
+1680066883076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZxE56t/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50967/devtools/browser/7a483945-06ba-413c-8ace-ecf9c215d77b
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680066976362	geckodriver	INFO	Listening on 127.0.0.1:49701
+1680066977125	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "34461" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilem6MVEJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.37361) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680066979766	Marionette	INFO	Marionette enabled
+1680066979787	Marionette	INFO	Listening on port 37955
+Read port: 37955
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:34461
+1680066980746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem6MVEJ/search.json.mozlz4", (void 0)))
+1680066986945	Marionette	INFO	Stopped listening on port 44569
+DevTools listening on ws://127.0.0.1:34461/devtools/browser/70f588f4-0b79-4d60-8bb7-b80254356c68
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680067059449	geckodriver	INFO	Listening on 127.0.0.1:41467
+1680067060245	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "59387" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9xqMoB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.21849) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680067062761	Marionette	INFO	Marionette enabled
+1680067062783	Marionette	INFO	Listening on port 45139
+Read port: 45139
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:59387
+1680067063625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9xqMoB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59387/devtools/browser/4b4a3e3c-78be-448b-b181-f9fb3b83489c
+1680067076429	Marionette	INFO	Stopped listening on port 37955
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1680067347868	geckodriver	INFO	Listening on 127.0.0.1:33761
+1680067348659	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "52629" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepau2pL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.50532) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680067351500	Marionette	INFO	Marionette enabled
+1680067351537	Marionette	INFO	Listening on port 37817
+Read port: 37817
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:52629
+1680067352447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepau2pL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52629/devtools/browser/4f00b939-bbb7-4f6d-bfa3-ec4b3b30c4af
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680067412859	Marionette	INFO	Stopped listening on port 37817
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1680067490160	Marionette	INFO	Stopped listening on port 45139
+1680067906342	geckodriver	INFO	Listening on 127.0.0.1:34973
+1680067907095	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "41551" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileF89Wxa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.29983) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680067909678	Marionette	INFO	Marionette enabled
+1680067909704	Marionette	INFO	Listening on port 44675
+Read port: 44675
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:41551
+1680067910555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF89Wxa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41551/devtools/browser/5c4d6856-b827-4ec6-87d7-1db3236b8220
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680067958812	Marionette	INFO	Stopped listening on port 44675
+1680068017340	geckodriver	INFO	Listening on 127.0.0.1:56987
+1680068018072	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "44453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUTea2l"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.27197) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680068020614	Marionette	INFO	Marionette enabled
+1680068020635	Marionette	INFO	Listening on port 39897
+Read port: 39897
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:44453
+1680068021434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUTea2l/search.json.mozlz4", (void 0)))
+1680068031150	Marionette	INFO	Stopped listening on port 44047
+DevTools listening on ws://127.0.0.1:44453/devtools/browser/515814a3-0b7c-488a-85f2-1a276a21f66f
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680068101560	Marionette	INFO	Stopped listening on port 39897
+1680068193612	geckodriver	INFO	Listening on 127.0.0.1:55619
+1680068194467	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "37533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehoRv4y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.22101) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680068196967	Marionette	INFO	Marionette enabled
+1680068196991	Marionette	INFO	Listening on port 42201
+Read port: 42201
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:37533
+1680068197760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehoRv4y/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37533/devtools/browser/135be5db-a7bd-4f9e-8523-25974fd44b6f
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680068263494	Marionette	INFO	Stopped listening on port 42201
+1680068436901	geckodriver	INFO	Listening on 127.0.0.1:55789
+1680068437757	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "42591" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCv2rlJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=2.16786) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680068440231	Marionette	INFO	Marionette enabled
+1680068440254	Marionette	INFO	Listening on port 34743
+Read port: 34743
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:42591
+1680068441008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCv2rlJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42591/devtools/browser/2d5f7a59-029c-4588-a960-f531ff4d9561
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680068569435	geckodriver	INFO	Listening on 127.0.0.1:56513
+1680068570139	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "56475" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVuM0D3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=1.99575) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680068572330	Marionette	INFO	Marionette enabled
+1680068572344	Marionette	INFO	Listening on port 38267
+Read port: 38267
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56475
+1680068572961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1680068573989	Marionette	INFO	Stopped listening on port 34743
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVuM0D3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56475/devtools/browser/77b15054-2584-4119-a319-3910d8f7f0ff
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680068770757	geckodriver	INFO	Listening on 127.0.0.1:56743
+1680068771340	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "35529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexNqaq5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.618321) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680068772036	Marionette	INFO	Marionette enabled
+1680068772046	Marionette	INFO	Listening on port 45297
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 45297
+WebDriver BiDi listening on ws://127.0.0.1:35529
+1680068772270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexNqaq5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35529/devtools/browser/04be0bd9-bffa-4bcf-abac-d78b5e4d868a
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680068802033	Marionette	INFO	Stopped listening on port 45297
+1680068985428	geckodriver	INFO	Listening on 127.0.0.1:60145
+1680068986027	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "44529" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerazGPq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.694122) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680068986796	Marionette	INFO	Marionette enabled
+1680068986807	Marionette	INFO	Listening on port 41459
+Read port: 41459
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:44529
+1680068987088	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerazGPq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44529/devtools/browser/5f0f8e6a-6e66-4263-908c-90ccddf72cc0
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680069091189	geckodriver	INFO	Listening on 127.0.0.1:37311
+1680069091821	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "43645" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewhXm3O"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=1.10922) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680069093090	Marionette	INFO	Marionette enabled
+1680069093104	Marionette	INFO	Listening on port 38759
+Read port: 38759
+1680069093158	Marionette	INFO	Stopped listening on port 41459
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:43645
+1680069093644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewhXm3O/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43645/devtools/browser/618feb09-2819-4b97-b6df-97160781bdc5
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1680072998938	geckodriver	INFO	Listening on 127.0.0.1:40385
+1680072999056	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "39825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileKgF768"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=1.09806) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680073000289	Marionette	INFO	Marionette enabled
+1680073000310	Marionette	INFO	Listening on port 36927
+Read port: 36927
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:39825
+1680073000704	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKgF768/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39825/devtools/browser/f46fbc72-3ed3-45e9-9f63-3f1f6569a597
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680073064303	geckodriver	INFO	Listening on 127.0.0.1:39105
+1680073064399	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "55061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeUlnyB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.696476) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680073065268	Marionette	INFO	Marionette enabled
+1680073065279	Marionette	INFO	Listening on port 34841
+Read port: 34841
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:55061
+1680073065575	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1680073067010	Marionette	INFO	Stopped listening on port 36927
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeUlnyB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55061/devtools/browser/4e4d3912-a13a-40bc-8597-d09e3da3a363
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680074057975	geckodriver	INFO	Listening on 127.0.0.1:42519
+1680074058061	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "56453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileg9gSFm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.670086) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680074058859	Marionette	INFO	Marionette enabled
+1680074058864	Marionette	INFO	Listening on port 46669
+Read port: 46669
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:56453
+1680074059130	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileg9gSFm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56453/devtools/browser/97fed228-d782-4117-9af1-b55c90409295
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680074165239	geckodriver	INFO	Listening on 127.0.0.1:47897
+1680074165308	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "35277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile64J6yi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.557875) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680074165958	Marionette	INFO	Marionette enabled
+1680074165969	Marionette	INFO	Listening on port 34549
+Read port: 34549
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:35277
+1680074166309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile64J6yi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35277/devtools/browser/6845797e-e6c8-4122-8422-d442020bb1c0
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680074372999	geckodriver	INFO	Listening on 127.0.0.1:59361
+1680074373587	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "50829" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileibA84s"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.958015) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680074374654	Marionette	INFO	Marionette enabled
+1680074374660	Marionette	INFO	Listening on port 33169
+Read port: 33169
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:50829
+1680074374928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileibA84s/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50829/devtools/browser/8bd492ca-982c-477f-82e9-cf2a60c508a2
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680074408609	Marionette	INFO	Stopped listening on port 33169
+1680074438027	Marionette	INFO	Stopped listening on port 34841
+1680074442456	Marionette	INFO	Stopped listening on port 46669
+1680074445867	Marionette	INFO	Stopped listening on port 34549
+1680074452438	geckodriver	INFO	Listening on 127.0.0.1:46773
+1680074453103	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "46933" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile970UYl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.593595) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680074453765	Marionette	INFO	Marionette enabled
+1680074453771	Marionette	INFO	Listening on port 46045
+Read port: 46045
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:46933
+1680074454007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile970UYl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46933/devtools/browser/b2c21837-1703-4af7-9359-80e2225d219d
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680074483684	Marionette	INFO	Stopped listening on port 46045
+1680074542596	geckodriver	INFO	Listening on 127.0.0.1:39295
+1680074543224	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "37385" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileZhji0M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.575394) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680074543861	Marionette	INFO	Marionette enabled
+1680074543865	Marionette	INFO	Listening on port 36573
+Read port: 36573
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:37385
+1680074544093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZhji0M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37385/devtools/browser/d8731b8a-11e4-4049-b082-ce4ffbc52eb0
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680074576607	Marionette	INFO	Stopped listening on port 36573
+1680074865693	geckodriver	INFO	Listening on 127.0.0.1:51789
+1680074866319	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "57273" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBX3P96"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.595417) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680074866987	Marionette	INFO	Marionette enabled
+1680074866991	Marionette	INFO	Listening on port 38225
+Read port: 38225
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:57273
+1680074867223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBX3P96/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57273/devtools/browser/dc48fdc3-0b2f-4827-8cfc-186db2c733fc
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680075128958	geckodriver	INFO	Listening on 127.0.0.1:54203
+1680075129073	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "45985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTtuQWz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.596985) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680075129725	Marionette	INFO	Marionette enabled
+1680075129730	Marionette	INFO	Listening on port 44543
+Read port: 44543
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:45985
+1680075129991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTtuQWz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45985/devtools/browser/95a57d28-b930-4550-bf32-421d17e2f454
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680075163292	Marionette	INFO	Stopped listening on port 44543
+1680075240102	geckodriver	INFO	Listening on 127.0.0.1:56405
+1680075240707	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "47901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledAdsli"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.6043) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680075241398	Marionette	INFO	Marionette enabled
+1680075241405	Marionette	INFO	Listening on port 33127
+Read port: 33127
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:47901
+1680075241629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledAdsli/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47901/devtools/browser/d0ccc3ee-1d16-432e-ac15-896af3d352e9
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+1680075248329	Marionette	INFO	Stopped listening on port 33127
+1680075744781	geckodriver	INFO	Listening on 127.0.0.1:51867
+1680075744888	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "41515" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilen4Aj35"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.777202) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680075745759	Marionette	INFO	Marionette enabled
+1680075745769	Marionette	INFO	Listening on port 41051
+Read port: 41051
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:41515
+1680075746072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilen4Aj35/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41515/devtools/browser/4d8bdc4b-447d-4841-9bf2-aa33bc1c8744
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680075903607	geckodriver	INFO	Listening on 127.0.0.1:52347
+1680075904273	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "49739" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepEFKZP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.716456) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680075905100	Marionette	INFO	Marionette enabled
+1680075905108	Marionette	INFO	Listening on port 37995
+Read port: 37995
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:49739
+1680075905467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepEFKZP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49739/devtools/browser/c1737a2b-b2b0-43e6-ac1f-6be4080d2f97
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680075940117	Marionette	INFO	Stopped listening on port 37995
+1680076099784	Marionette	INFO	Stopped listening on port 41051
+1680076108377	geckodriver	INFO	Listening on 127.0.0.1:35761
+1680076108961	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "35929" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemZ1fyU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.776836) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680076109831	Marionette	INFO	Marionette enabled
+1680076109835	Marionette	INFO	Listening on port 45711
+Read port: 45711
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:35929
+1680076110074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemZ1fyU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35929/devtools/browser/71aa237c-1d08-47a1-9757-466541087c5b
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680076142559	Marionette	INFO	Stopped listening on port 45711
+1680076245556	geckodriver	INFO	Listening on 127.0.0.1:52911
+1680076246129	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "33127" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyQ1uaT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.597594) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680076246808	Marionette	INFO	Marionette enabled
+1680076246812	Marionette	INFO	Listening on port 33771
+Read port: 33771
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:33127
+1680076247080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyQ1uaT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33127/devtools/browser/e64ca3e5-edf6-4a34-9f70-5e0a84452a04
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680076279527	Marionette	INFO	Stopped listening on port 33771
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 603))
+1680076613405	geckodriver	INFO	Listening on 127.0.0.1:43399
+1680076613497	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "48281" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileEvVTto"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.671094) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680076614309	Marionette	INFO	Marionette enabled
+1680076614318	Marionette	INFO	Listening on port 44795
+Read port: 44795
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:48281
+1680076614663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEvVTto/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48281/devtools/browser/ec3cf1fb-6a8c-4723-b06d-9cf3316d5db1
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680076631664	Marionette	INFO	Stopped listening on port 38225
+1680076649030	Marionette	INFO	Stopped listening on port 44795
+1680076729285	geckodriver	INFO	Listening on 127.0.0.1:43239
+1680076729361	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "39763" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileIibhVh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.576894) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680076730010	Marionette	INFO	Marionette enabled
+1680076730018	Marionette	INFO	Listening on port 36763
+Read port: 36763
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:39763
+1680076730254	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIibhVh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39763/devtools/browser/b909ab83-cd6f-478e-9aa6-d0933060422c
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680076760979	Marionette	INFO	Stopped listening on port 36763
+1680077047310	geckodriver	INFO	Listening on 127.0.0.1:41427
+1680077047385	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "51157" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaCyUbK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.609634) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680077048071	Marionette	INFO	Marionette enabled
+1680077048081	Marionette	INFO	Listening on port 32773
+Read port: 32773
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:51157
+1680077048320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaCyUbK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51157/devtools/browser/6435631b-e7b5-4fa0-a042-744d505675b5
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680077079357	Marionette	INFO	Stopped listening on port 32773
+1680078332661	geckodriver	INFO	Listening on 127.0.0.1:44611
+1680078333285	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "44457" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileamg7NQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.628341) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680078333987	Marionette	INFO	Marionette enabled
+1680078333995	Marionette	INFO	Listening on port 46051
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 46051
+WebDriver BiDi listening on ws://127.0.0.1:44457
+1680078334252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileamg7NQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44457/devtools/browser/dd9b31c9-4814-419e-a4bd-0834f9eac120
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680078450024	geckodriver	INFO	Listening on 127.0.0.1:47977
+1680078450081	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "52819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4HvyU4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.495712) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680078450652	Marionette	INFO	Marionette enabled
+1680078450657	Marionette	INFO	Listening on port 39825
+Read port: 39825
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:52819
+1680078450883	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4HvyU4/search.json.mozlz4", (void 0)))
+1680078453714	Marionette	INFO	Stopped listening on port 46051
+DevTools listening on ws://127.0.0.1:52819/devtools/browser/dbbd43b7-8789-47cf-a323-0271501c2e01
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680078483236	Marionette	INFO	Stopped listening on port 39825
+1680079424976	geckodriver	INFO	Listening on 127.0.0.1:41933
+1680079425022	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53745" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6KK9Ge"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.458946) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680079425560	Marionette	INFO	Marionette enabled
+1680079425566	Marionette	INFO	Listening on port 39417
+Read port: 39417
+WebDriver BiDi listening on ws://127.0.0.1:53745
+1680079425711	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6KK9Ge/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53745/devtools/browser/9a0f7e43-35ec-45b6-8533-876db38d5c40
+1680079442288	Marionette	INFO	Stopped listening on port 39417
+1680079485545	geckodriver	INFO	Listening on 127.0.0.1:48701
+1680079485646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59365" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileX5eZR3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.382103) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680079486081	Marionette	INFO	Marionette enabled
+1680079486085	Marionette	INFO	Listening on port 37907
+Read port: 37907
+WebDriver BiDi listening on ws://127.0.0.1:59365
+1680079486208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX5eZR3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59365/devtools/browser/c54e1875-e73f-48c3-9ba7-b1311c2371e7
+1680079491658	Marionette	INFO	Stopped listening on port 37907
+1680079501134	geckodriver	INFO	Listening on 127.0.0.1:51461
+1680079501203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileaRawBK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.379569) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680079501633	Marionette	INFO	Marionette enabled
+1680079501637	Marionette	INFO	Listening on port 37707
+Read port: 37707
+WebDriver BiDi listening on ws://127.0.0.1:57977
+1680079501758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaRawBK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57977/devtools/browser/5e874e61-e824-49ec-9f3a-871b004bdc74
+1680079507794	Marionette	INFO	Stopped listening on port 37707
+1680079536611	geckodriver	INFO	Listening on 127.0.0.1:55899
+1680079536657	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36421" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileCHn7YH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.379103) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680079537087	Marionette	INFO	Marionette enabled
+1680079537090	Marionette	INFO	Listening on port 35817
+Read port: 35817
+WebDriver BiDi listening on ws://127.0.0.1:36421
+1680079537210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCHn7YH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36421/devtools/browser/16032dc8-ae4d-41d7-bfbb-2a03383098fb
+1680079545371	Marionette	INFO	Stopped listening on port 35817
+1680079579166	geckodriver	INFO	Listening on 127.0.0.1:55239
+1680079579211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49479" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTTEbpF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.379951) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680079579643	Marionette	INFO	Marionette enabled
+1680079579646	Marionette	INFO	Listening on port 39619
+Read port: 39619
+WebDriver BiDi listening on ws://127.0.0.1:49479
+1680079579768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTTEbpF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49479/devtools/browser/7c5ea434-addb-429a-a3b0-aa9a51023124
+1680079584505	Marionette	INFO	Stopped listening on port 39619
+1680079812743	geckodriver	INFO	Listening on 127.0.0.1:41645
+1680079812791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37945" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileq1dkye"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.383292) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680079813226	Marionette	INFO	Marionette enabled
+1680079813230	Marionette	INFO	Listening on port 42515
+Read port: 42515
+WebDriver BiDi listening on ws://127.0.0.1:37945
+1680079813352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileq1dkye/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37945/devtools/browser/d8e9434a-b32c-40a1-9199-c2052097ecc1
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680079916416	Marionette	INFO	Stopped listening on port 42515
+1680079935282	geckodriver	INFO	Listening on 127.0.0.1:59389
+1680079935857	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57521" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqt8unj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.389181) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680079936298	Marionette	INFO	Marionette enabled
+1680079936302	Marionette	INFO	Listening on port 38315
+Read port: 38315
+WebDriver BiDi listening on ws://127.0.0.1:57521
+1680079936424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqt8unj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57521/devtools/browser/b0460779-1d98-4ff4-b992-a566445ca1ae
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680079943610	Marionette	INFO	Stopped listening on port 38315
+1680080010146	geckodriver	INFO	Listening on 127.0.0.1:41295
+1680080010193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58061" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelhd1YQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.392362) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680080010627	Marionette	INFO	Marionette enabled
+1680080010630	Marionette	INFO	Listening on port 41119
+Read port: 41119
+WebDriver BiDi listening on ws://127.0.0.1:58061
+1680080010769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelhd1YQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58061/devtools/browser/0885488f-685a-4cde-a313-1c9e56613be8
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680080043852	geckodriver	INFO	Listening on 127.0.0.1:59911
+1680080043902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41995" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledAjzlx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.39998) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680080044354	Marionette	INFO	Marionette enabled
+1680080044357	Marionette	INFO	Listening on port 45883
+Read port: 45883
+WebDriver BiDi listening on ws://127.0.0.1:41995
+1680080044485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledAjzlx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41995/devtools/browser/4937319c-92e3-4ace-b3c4-9143f0c82936
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680080072214	Marionette	INFO	Stopped listening on port 45883
+1680080181304	geckodriver	INFO	Listening on 127.0.0.1:46163
+1680080181915	mozrunner::runner	INFO	Running command: "/bin/firefox" "--marionette" "--remote-debugging-port" "58913" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilez9J0QL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.758309) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680080182783	Marionette	INFO	Marionette enabled
+1680080182788	Marionette	INFO	Listening on port 32889
+Read port: 32889
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:58913
+1680080183066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez9J0QL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58913/devtools/browser/233669d2-1bb4-45f4-ac99-9080f1c12656
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680080212535	Marionette	INFO	Stopped listening on port 32889
+1680080317435	geckodriver	INFO	Listening on 127.0.0.1:46071
+1680080317486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48937" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehBnruJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection. (t=0.438649) [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680080318022	Marionette	INFO	Marionette enabled
+1680080318026	Marionette	INFO	Listening on port 40677
+Read port: 40677
+WebDriver BiDi listening on ws://127.0.0.1:48937
+1680080318213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehBnruJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48937/devtools/browser/e67b05b2-94c9-4503-898d-0f0a7f604683
+JavaScript error: http://115.124.110.196:8080/epeek/, line 372: TypeError: date is null
+JavaScript error: http://115.124.110.196:8080/epeek/, line 560: ReferenceError: md is not defined
+1680080346711	Marionette	INFO	Stopped listening on port 40677
