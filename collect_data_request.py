@@ -11,12 +11,17 @@ def collect_data(**args):
     """
     Send a request to the server and parse the table, and return the dataset
     """
-    URL = URL = f"http://115.124.110.196:8080/epeek/rptViewDist.jsp?ccode=-&blk=-&dist=-&\
+    static_url = "http://115.124.110.196:8080/epeek/rptViewDist.jsp?ccode=-&blk=-&\
+                dist=-&div=amravati&season=खरीप&divName=अमरावती&distName=सर्व&blkName=सर्व&ccodeName=सर्व&seasonName=खरीप"
+    URL = f"http://115.124.110.196:8080/epeek/rptViewDist.jsp?ccode=-&blk=-&dist=-&\
         div={args['division_en']}&season={args['season']}&divName={args['division']}&distName={args['district']}\
         &blkName=सर्व&ccodeName=सर्व&seasonName={args['season']}"
-    page = requests.get(URL) # reads html pages
+    page = requests.get(static_url) # reads html pages
 
     html_content = bs(page.content, "html.parser") #parsing using beautiful soup
+
+    print(URL)
+    print(static_url)
 
     html_result_table =  html_content.find('table')# find out table
     rows = html_result_table.find_all('tr')
@@ -41,19 +46,14 @@ def create_csv(data_list):
     """
     Function to create a csv file
     """
-    df = pd.Dataframe(data_list)
+    df = pd.DataFrame(data_list)
     df.to_csv(f'data/data_{time_ns()}.csv')
 
 def main():
     """
     Main funtion
     """
-    division_en = sys.argv[1]
-    season = sys.argv[2]
-    division = sys.argv[3]
-    district = sys.argv[4]
-
-    data_set = collect_data(division_en, season, division, district)
+    data_set = collect_data(division_en=sys.argv[1], season=sys.argv[2], division=sys.argv[3], district=sys.argv[4])
     create_csv(data_set)
 
 if __name__ == '__main__':
