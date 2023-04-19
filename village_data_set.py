@@ -95,7 +95,7 @@ def get_all_villages(taluka):
     
     return village
 
-def get_village(district_code, taluka_code, division):
+def get_villages(district_code, taluka_code, division):
     """
     Get the list of all villages under a paricular village
     Input: all information about the taluka
@@ -106,7 +106,7 @@ def get_village(district_code, taluka_code, division):
     html_content = bs(village_response.content, 'html.parser')
     values =  html_content.findAll("option")
     values.pop(0) #remove the first element (for all)
-    village = []
+    villages = []
     for value in values:
         row = {}
         row["division"] = division
@@ -115,9 +115,9 @@ def get_village(district_code, taluka_code, division):
         row['taluka_code'] =taluka_code
         row["village_code"] = value["value"]
         row["village"] = value.text
-        village.append(row)
+        villages.append(row)
     
-    return village
+    return villages
 
 
 def create_data_file(dataset, file_name="all_village_data"):
@@ -153,15 +153,32 @@ def get_all_village_info_file():
 
     print("Start writing to file...")
     create_data_file(village_set)
+
+def read_villages_of_taluka():
+    district_code = input("Enter the district code\n")
+    taluka_code = input("Enter the taluka_code\n")
+    division = input("Enter the division code\n")
+    file_name = input("Enter the filenme required\n")
+
+    print("Reading village information")
+    village_set = get_villages(district_code, taluka_code, division)
+
+    print("Start writing to file...")
+    create_data_file(village_set, file_name)
+    
     
 def main():
     """
     Main funtion
     """
-    print("Fetching started")
-
-    get_all_village_info_file()
-
+    choice = int(input("Enter the option\n1. Get all village information\n2. Get village information of a Taluka\n"))
+    
+    print("Fetching started...")
+    if choice == 1:
+        get_all_village_info_file()
+    else:
+        read_villages_of_taluka()
+    
     print("The process completed")
 
 if __name__ == '__main__':
