@@ -57,10 +57,10 @@ def get_data(url):
     #Below code execute if the object present in the result page
     try:
         object_content = browser.find_element(By.TAG_NAME, 'object')
-        browser.switch_to.frame(object_content)
+        if bool(object_content):
+            browser.switch_to.frame(object_content)
     except Exception as e: 
-        print(f"Some error occured during the data collection")
-        return 
+        pass 
     
     #Starts parsing html content
     html_content = bs(browser.page_source, "html.parser")
