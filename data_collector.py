@@ -58,8 +58,9 @@ def get_data(url):
     try:
         object_content = browser.find_element(By.TAG_NAME, 'object')
         browser.switch_to.frame(object_content)
-    except: 
-        pass
+    except Exception as e: 
+        print(f"Some error occured during the data collection")
+        return 
     
     #Starts parsing html content
     html_content = bs(browser.page_source, "html.parser")
@@ -124,9 +125,21 @@ def main():
     Main function
     """
     values = read_values()
+
+    print("Fetching the data started")
+    
     url = generate_url(values)
+
+    print(f"URL generated:{url}")
+
+    print("Collecting data from the URL...")
+
     headers, data = get_data(url)
+
+    print("Generating data file...")
     generate_csv(data, headers)
+
+    print("Process completed!")
 
 
 if __name__ == '__main__':
