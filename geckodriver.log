@@ -1628,3 +1628,4 @@ console.error: ({})
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelxySsI/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:43021/devtools/browser/332e1ff2-3d21-4bc4-852e-b398ef957322
 1681970335265	Marionette	INFO	Stopped listening on port 35093
+1681975201250	Marionette	INFO	Stopped listening on port 46677
