@@ -13,3 +13,11 @@ This is a simple python code for downloding csv files from http://115.124.110.19
 - '-' for all villages or district
 - Files will be saved in data folder
 
+## Fetch the value of the website and insert into Database.
+#### For initilaizing the meta database tables
+1. To create database, move to `collect_village_data` folder
+2. Run `meta_data_fill.py`
+### For adding farmers' information to database tables
+1. Run `pocra_data_fill.py`
+2. Enter the district code and season code
+**Initializing meta table is required for first time only**
