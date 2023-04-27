@@ -21,9 +21,8 @@ class DatabaseOperations:
             if(self.db_connection):
                 print("Successfully connected to the database")
                 self.db_cursor = self.db_connection.cursor()
-                print(self.db_cursor)
         except Exception as e:
-            print(f"Error occured {e}")
+            raise Exception(f"Error occured: {e}")
 
 
     def disconnect_db(self):
@@ -31,9 +30,14 @@ class DatabaseOperations:
         Disconnect the database
         """
         self.db_connection.close()
+        print("Successfully disconnected from the database")
 
 
     def create_tables(self):
+        """
+        Creates necessary database tables. 
+        Major tables are divisions, districts, talukas, villages, account holder and status
+        """
 
         tables = [
             """
@@ -66,6 +70,8 @@ class DatabaseOperations:
                 village_name VARCHAR(100) NOT NULL,
                 taluka VARCHAR(100) NOT NULL,
                 district INTEGER,
+                taluka_code INTEGER,
+                division VARCHAR(100),
                 PRIMARY KEY(id),
                 FOREIGN KEY(district) REFERENCES districts(district_id)
             )
@@ -76,10 +82,11 @@ class DatabaseOperations:
                 name VARCHAR(100) NOT NULL,
                 account_number VARCHAR(100) NOT NULL,
                 group_number VARCHAR(100) NOT NULL,
-                crop_inspection_date DATE,
+                crop_inspection_date TIMESTAMP,
                 crop_name VARCHAR(100) NOT NULL,
                 cropt_type VARCHAR(100) NOT NULL,
                 area VARCHAR(100) NOT NULL,
+                crop_season VARCHAR(100) NOT NULL,
                 village INTEGER,
                 PRIMARY KEY(id),
                 FOREIGN KEY(village) REFERENCES villages(id)
@@ -108,6 +115,9 @@ class DatabaseOperations:
 
         
     def fill_data(self, table_name, values):
+        """
+        Insert the values into curresponding tables.
+        """
         query = ''
         if table_name == 'divisions':
             query =  f"INSERT INTO divisions(name) VALUES('{values['name']}')"
@@ -116,13 +126,30 @@ class DatabaseOperations:
         if table_name == 'talukas':
             query =  f"INSERT INTO talukas( district, name) VALUES({values['district_id']},'{values['name']}')"
         if table_name == 'villages':
-            query =  f"INSERT INTO villages(village_id, village_name, taluka, district  ) VALUES('{values['village_id']}', '{values['village_name']}', '{values['taluka']}', {values['district_id']})" 
+            query =  f"INSERT INTO villages(village_id, village_name, taluka, district, taluka_code, division  ) VALUES('{values['village_id']}', '{values['village_name']}',\
+                 '{values['taluka']}', {values['district_id']}, {values['taluka_code']}, '{values['division']}')" 
+        if table_name == 'account_holders':
+            query =  f"INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, cropt_type, area, crop_season, village   ) VALUES\
+                ('{values['name']}', '{values['account_number']}', '{values['group_number']}', '{values['crop_inspection_date']}', '{values['crop_name']}', \
+                '{values['crop_type']}', '{values['area']}', '{values['season']}', {values['village']})"
         
         try:
             self.db_cursor.execute(query)
             self.db_connection.commit()
-            print(f"Data successfully inseted into {table_name}.")
+            return True
         except Exception as e:
             self.db_connection.rollback()
             print(f"Error occured while inserting into {table_name}. \n Error details: {e}")
+            return False
 
+    def fetch_data(self, query):
+        """
+        Execute query and fetch the data
+        """
+        try:
+            self.db_cursor.execute(query)
+            result_set = self.db_cursor.fetchall()
+            return result_set
+        except Exception as e:
+            print(f"There is some error occured. Error: {e}")
+            return
