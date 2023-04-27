@@ -80,8 +80,8 @@ db_opertation.connect_db()
 
 db_opertation.create_tables()
 
-# fill_division()
-# fill_district()
-# fill_village()
+fill_division()
+fill_district()
+fill_village()
 
 db_opertation.disconnect_db()
