@@ -15,7 +15,9 @@ This is a simple python code for downloding csv files from http://115.124.110.19
 
 ## Fetch the value of the website and insert into Database.
 The codes will create necessary tables to store division, district, block and village level information, which will not change frequently. These tables are called meta data tables for the actual dataset. 
-Actual dataset contains the information about each farmer of the selected village and having account number, area of the land, crop details, season etc. The data fetching engine currently developed has two parts. One is for fetching and storing the metadata values. This is a one time process. The user dont need to follow the steps for metadata related computation if it already completed. The second one is filling the village level information based on district selected. The instruction for both steps are given below.
+Actual dataset contains the information about each farmer of the selected village and having account number, area of the land, crop details, season etc. 
+
+The data fetching engine currently developed has two parts. One is for fetching and storing the metadata values.This is a one time process. The user dont need to follow the steps for metadata related computation if it already completed. The second one is filling the village level information based on district selected. The instruction for both steps are given below.
 #### For initilaizing the meta database tables
 1. To create database, move to `collect_village_data` folder
 2. Run `meta_data_fill.py`
