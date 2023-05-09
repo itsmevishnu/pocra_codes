@@ -24,7 +24,12 @@ def get_data(url):
     # except Exception as e: 
     #     pass 
     
-    response = requests.ge(url)
+    response = requests.get(url)
+    
+    #Checks the response is 200 OK.
+    if response.status_code != 200:
+        raise("The response is not proper")
+
     #Starts parsing html content
     html_content = bs(response.content, "html.parser")
     # browser.close()
