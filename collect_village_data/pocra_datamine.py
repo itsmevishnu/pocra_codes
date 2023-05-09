@@ -28,7 +28,7 @@ def get_data(url):
     
     #Checks the response is 200 OK.
     if response.status_code != 200:
-        raise("The response is not proper")
+        raise(f"There is some error in response,{response.status_code}")
 
     #Starts parsing html content
     html_content = bs(response.content, "html.parser")
