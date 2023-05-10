@@ -84,7 +84,7 @@ class DatabaseOperations:
                 group_number VARCHAR(100) NOT NULL,
                 crop_inspection_date TIMESTAMP,
                 crop_name VARCHAR(100) NOT NULL,
-                cropt_type VARCHAR(100) NOT NULL,
+                crop_type VARCHAR(100) NOT NULL,
                 area VARCHAR(100) NOT NULL,
                 crop_season VARCHAR(100) NOT NULL,
                 village INTEGER,
@@ -129,7 +129,7 @@ class DatabaseOperations:
             query =  f"INSERT INTO villages(village_id, village_name, taluka, district, taluka_code, division  ) VALUES('{values['village_id']}', '{values['village_name']}',\
                  '{values['taluka']}', {values['district_id']}, {values['taluka_code']}, '{values['division']}')" 
         if table_name == 'account_holders':
-            query =  f"INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, cropt_type, area, crop_season, village   ) VALUES\
+            query =  f"INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, crop_type, area, crop_season, village   ) VALUES\
                 ('{values['name']}', '{values['account_number']}', '{values['group_number']}', '{values['crop_inspection_date']}', '{values['crop_name']}', \
                 '{values['crop_type']}', '{values['area']}', '{values['season']}', {values['village']})"
         
