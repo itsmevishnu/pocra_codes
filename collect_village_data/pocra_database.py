@@ -1,12 +1,13 @@
 #import necessary packages
 import psycopg2
+from psycopg2.extras import execute_values, execute_batch
 
 class DatabaseOperations:
 
     # Dtabase informations
     database = "pocra_db"
-    username = "postgres"
-    password = "postgres"
+    username = "vishnujayan"
+    password = "7770"
     host = "localhost"
 
     db_connection = None
@@ -58,7 +59,8 @@ class DatabaseOperations:
             CREATE TABLE IF NOT EXISTS talukas(
                 id INTEGER GENERATED ALWAYS AS IDENTITY,
                 district INTEGER,
-                name VARCHAR(100) NOT NULL UNIQUE,
+                taluka_id INTEGER,
+                name VARCHAR(100) NOT NULL,
                 PRIMARY KEY(id),
                 FOREIGN KEY(district) REFERENCES districts(district_id)
             )
@@ -118,23 +120,33 @@ class DatabaseOperations:
         """
         Insert the values into curresponding tables.
         """
-        query = ''
+        #query = ''
+        query_string = ''
+
         if table_name == 'divisions':
-            query =  f"INSERT INTO divisions(name) VALUES('{values['name']}')"
+            query_string = "INSERT INTO divisions(name) VALUES (%s)"
+            # query_string =  f"INSERT INTO divisions(name) VALUES('{values['name']}')"
         if table_name == 'districts':
-            query =  f"INSERT INTO districts(district_id, name) VALUES({values['district_id']},'{values['name']}')"
+            query_string = "INSERT INTO districts(district_id, name) VALUES(%s, %s)" 
+            # query =  f"INSERT INTO districts(district_id, name) VALUES({values['district_id']},'{values['name']}')"
         if table_name == 'talukas':
-            query =  f"INSERT INTO talukas( district, name) VALUES({values['district_id']},'{values['name']}')"
+            query_string = "INSERT INTO talukas( district, taluka_id, name) VALUES(%s, %s, %s)"
+            # query =  f"INSERT INTO talukas( district, name) VALUES({values['district_id']},'{values['name']}')"
         if table_name == 'villages':
-            query =  f"INSERT INTO villages(village_id, village_name, taluka, district, taluka_code, division  ) VALUES('{values['village_id']}', '{values['village_name']}',\
-                 '{values['taluka']}', {values['district_id']}, {values['taluka_code']}, '{values['division']}')" 
+            query_string = "INSERT INTO villages(village_id, village_name, taluka, district, taluka_code, division  ) VALUES(%s, %s, %s, %s, %s, %s)"
+            # query =  f"INSERT INTO villages(village_id, village_name, taluka, district, taluka_code, division  ) VALUES('{values['village_id']}', '{values['village_name']}',\
+                #  '{values['taluka']}', {values['district_id']}, {values['taluka_code']}, '{values['division']}')" 
         if table_name == 'account_holders':
-            query =  f"INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, crop_type, area, crop_season, village   ) VALUES\
-                ('{values['name']}', '{values['account_number']}', '{values['group_number']}', '{values['crop_inspection_date']}', '{values['crop_name']}', \
-                '{values['crop_type']}', '{values['area']}', '{values['season']}', {values['village']})"
+            query_string = "INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, crop_type, area, crop_season, village ) VALUES\
+                (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
+            # query =  f"INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, crop_type, area, crop_season, village   ) VALUES\
+            #     ('{values['name']}', '{values['account_number']}', '{values['group_number']}', '{values['crop_inspection_date']}', '{values['crop_name']}', \
+            #     '{values['crop_type']}', '{values['area']}', '{values['season']}', {values['village']})"
         
         try:
-            self.db_cursor.execute(query)
+            # self.db_cursor.execute(query)
+            execute_batch(self.db_cursor, query_string, values )
+
             self.db_connection.commit()
             return True
         except Exception as e:

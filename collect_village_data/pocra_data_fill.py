@@ -56,9 +56,10 @@ class PocraDataFill:
             for i, url in enumerate(urls):
                 print(f"Collectiong information of village {i+1}/{len(urls)} and inserting into database")
                 data_set = get_data_for_db(url)
-                for num, values in enumerate(data_set):
-                    print(f"Inserting account holder {num+1} of village {i+1}/{len(urls)} ")
-                    self.db_opertation.fill_data('account_holders', values)
+                account_holders = [(x['name'], x['account_number'], x['group_number'], x['crop_inspection_date'], x['crop_name'], \
+                    x['crop_type'], x['area'], x['season'], x['village']) for x in data_set]
+                
+                self.db_opertation.fill_data('account_holders', account_holders)
         except Exception as e:  
             print(f"There are some error occured. Error is {e}")
         finally:
