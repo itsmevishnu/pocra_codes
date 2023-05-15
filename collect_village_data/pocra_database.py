@@ -89,16 +89,22 @@ class DatabaseOperations:
                 crop_type VARCHAR(100) NOT NULL,
                 area VARCHAR(100) NOT NULL,
                 crop_season VARCHAR(100) NOT NULL,
+                taluka INTEGER,
+                district INTEGER,
                 village INTEGER,
                 PRIMARY KEY(id),
-                FOREIGN KEY(village) REFERENCES villages(id)
+                FOREIGN KEY(village) REFERENCES villages(id),
+                FOREIGN KEY(district) REFERENCES districts(district_id),
+                FOREIGN KEY(taluka) REFERENCES talukas(id)
             )
             """,
             """
-            CREATE TABLE IF NOT EXISTS status (
+            CREATE TABLE IF NOT EXISTS statuses (
                 id INTEGER GENERATED ALWAYS AS IDENTITY,
-                district INTEGER,
-                completed_at TIMESTAMP,
+                district INTEGER NOT NULL,
+                code INTEGER NOT NULL,
+                info TEXT NOT NULL,
+                created_at TIMESTAMP NOT NULL,
                 PRIMARY KEY(id),
                 FOREIGN KEY(district) REFERENCES districts(district_id)
             )
@@ -125,24 +131,23 @@ class DatabaseOperations:
 
         if table_name == 'divisions':
             query_string = "INSERT INTO divisions(name) VALUES (%s)"
-            # query_string =  f"INSERT INTO divisions(name) VALUES('{values['name']}')"
+            
         if table_name == 'districts':
             query_string = "INSERT INTO districts(district_id, name) VALUES(%s, %s)" 
-            # query =  f"INSERT INTO districts(district_id, name) VALUES({values['district_id']},'{values['name']}')"
+
         if table_name == 'talukas':
             query_string = "INSERT INTO talukas( district, taluka_id, name) VALUES(%s, %s, %s)"
-            # query =  f"INSERT INTO talukas( district, name) VALUES({values['district_id']},'{values['name']}')"
+           
         if table_name == 'villages':
-            query_string = "INSERT INTO villages(village_id, village_name, taluka, district, taluka_code, division  ) VALUES(%s, %s, %s, %s, %s, %s)"
-            # query =  f"INSERT INTO villages(village_id, village_name, taluka, district, taluka_code, division  ) VALUES('{values['village_id']}', '{values['village_name']}',\
-                #  '{values['taluka']}', {values['district_id']}, {values['taluka_code']}, '{values['division']}')" 
+            query_string = "INSERT INTO villages(village_id, village_name, taluka, district, taluka_code, division  ) VALUES (%s, %s, %s, %s, %s, %s)"
+            
         if table_name == 'account_holders':
-            query_string = "INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, crop_type, area, crop_season, village ) VALUES\
-                (%s, %s, %s, %s, %s, %s, %s, %s, %s)"
-            # query =  f"INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, crop_type, area, crop_season, village   ) VALUES\
-            #     ('{values['name']}', '{values['account_number']}', '{values['group_number']}', '{values['crop_inspection_date']}', '{values['crop_name']}', \
-            #     '{values['crop_type']}', '{values['area']}', '{values['season']}', {values['village']})"
-        
+            query_string = "INSERT INTO account_holders(name, account_number, group_number, crop_inspection_date, crop_name, crop_type, area, crop_season, taluka, district, village ) VALUES\
+                (%s, %s, %s, %s, %s, %s, %s,%s, %s, %s, %s)"
+
+        if table_name == 'statuses':
+            query_string = "INSERT INTO statuses VALUES(district, code, info, created_at) VALUES ( %s, %s, %s, %s)"
+
         try:
             # self.db_cursor.execute(query)
             execute_batch(self.db_cursor, query_string, values )

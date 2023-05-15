@@ -2,6 +2,7 @@
 import pandas as pd
 import requests
 
+from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from pocra_database import DatabaseOperations
 from pocra_datamine import get_data_for_db
@@ -11,7 +12,10 @@ class PocraDataFill:
 
     def __init__(self):
        self.db_opertation = DatabaseOperations()
+       self.db_opertation.connect_db()
 
+    def __del__(self):
+        self.db_opertation.disconnect_db()
     def get_urls(self, id, season):
         """
         Find out all the village based information from the database 
@@ -26,17 +30,12 @@ class PocraDataFill:
             season_code = 'रब्बी' 
         elif season == 3:
             season_code = 'उन्हाळी'
-        
-        self.db_opertation.connect_db()
         try:
             query = f"SELECT * FROM villages WHERE district={id}"
             meta_data = self.db_opertation.fetch_data(query)
 
         except Exception as e:
             print(f"Some error occured. Error{e}")
-
-        finally:
-            self.db_opertation.disconnect_db()
 
         print('Creating URLs for the district...')
 
@@ -46,24 +45,42 @@ class PocraDataFill:
             data['url'] = base_url+url
             data['village_code'] = item[0]
             data['season'] = season_code
+            data['taluka'] = item[5]
+            data['district'] = item[4]
             url_list.append(data)
         
         return url_list
     
+    def insert_status(self, code, **info):
+        """
+        Insert the stauts message into database for reference.
+        200 - Insertion successful
+        500 - Insertion failed due to some internal error.
+        """
+        if code ==  200:
+            values = (info["district"], code, f"Insertion proces completed. Data of {info['total']} villages inserted", datetime.now().isoformat())
+        else:
+            values = (info["district"], code, f"Insertion proces failed. Data of {info['current']}/{info['total']} villages need to enter", datetime.now().isoformat())
+
+        self.db_opertation.fill_data('statuses', values)
+       
     def insert_values(self, urls):
-        self.db_opertation.connect_db()
+        """ Fetch and insert the values of account holders into the databse"""
         try:
             for i, url in enumerate(urls):
-                print(f"Collectiong information of village {i+1}/{len(urls)} and inserting into database")
+                print(f"Collecting information of village {i+1}/{len(urls)} and inserting into database")
                 data_set = get_data_for_db(url)
                 account_holders = [(x['name'], x['account_number'], x['group_number'], x['crop_inspection_date'], x['crop_name'], \
-                    x['crop_type'], x['area'], x['season'], x['village']) for x in data_set]
+                    x['crop_type'], x['area'], x['season'], x['taluka'], x['district'], x['village']) for x in data_set]
                 
                 self.db_opertation.fill_data('account_holders', account_holders)
+            
+            self.insert_status(200, district=data_set[0]['district'], total=len(data_set))
+
         except Exception as e:  
             print(f"There are some error occured. Error is {e}")
-        finally:
-            self.db_opertation.disconnect_db()
+            self.insert_status(200, district=data_set[0]['district'], total=len(data_set), current=i)
+       
 
 if __name__ == '__main__':
     

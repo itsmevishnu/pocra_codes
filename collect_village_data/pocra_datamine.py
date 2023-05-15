@@ -85,6 +85,8 @@ def get_data_for_db(url):
         data_row['area'] = cols[7].text.strip()
         data_row['season'] = url['season']
         data_row['village'] = url['village_code']
+        data_row['taluka'] = url['taluka']
+        data_row['district'] = url['district']
         data_list.append(data_row)
     
     return data_list 
