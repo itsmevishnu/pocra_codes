@@ -12,10 +12,7 @@ class PocraDataFill:
 
     def __init__(self):
        self.db_opertation = DatabaseOperations()
-       self.db_opertation.connect_db()
 
-    def __del__(self):
-        self.db_opertation.disconnect_db()
     def get_urls(self, id, season):
         """
         Find out all the village based information from the database 
@@ -75,11 +72,11 @@ class PocraDataFill:
                 
                 self.db_opertation.fill_data('account_holders', account_holders)
             
-            self.insert_status(200, district=data_set[0]['district'], total=len(data_set))
+            # self.insert_status(200, district=data_set[0]['district'], total=len(data_set))
 
         except Exception as e:  
             print(f"There are some error occured. Error is {e}")
-            self.insert_status(200, district=data_set[0]['district'], total=len(data_set), current=i)
+            # self.insert_status(200, district=data_set[0]['district'], total=len(data_set), current=i)
        
 
 if __name__ == '__main__':

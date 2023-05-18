@@ -63,7 +63,6 @@ def insert_to_table(table_name, values):
 
 # database operations
 db_opertation = DatabaseOperations()
-db_opertation.connect_db()
 
 db_opertation.create_tables()
 
@@ -72,4 +71,3 @@ fill_district()
 fill_taluka()
 fill_village()
 
-db_opertation.disconnect_db()

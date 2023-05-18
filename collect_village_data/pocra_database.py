@@ -1,6 +1,6 @@
 #import necessary packages
 import psycopg2
-from psycopg2.extras import execute_values, execute_batch
+from psycopg2.extras import execute_batch
 
 class DatabaseOperations:
 
@@ -13,7 +13,7 @@ class DatabaseOperations:
     db_connection = None
     db_cursor = None
 
-    def connect_db(self):
+    def __init__(self):
         """
         Establish the database connection
         """
@@ -26,7 +26,7 @@ class DatabaseOperations:
             raise Exception(f"Error occured: {e}")
 
 
-    def disconnect_db(self):
+    def __del__(self):
         """
         Disconnect the database
         """
@@ -169,4 +169,26 @@ class DatabaseOperations:
             return result_set
         except Exception as e:
             print(f"There is some error occured. Error: {e}")
-            return
+            return None
+
+    def fetch_village_values(self, district, season, file_name):
+        """
+        Execute the query to fetch all the information regarding accound holder based on distrct code and season
+        """
+        query = f"""
+        SELECT ah.*, v.village_id, v.village_name, v.taluka
+        FROM account_holders ah 
+        LEFT JOIN villages v 
+        ON ah.village = v.id
+        WHERE ah.crop_season  = '{season}' AND ah.district = {district}
+        """
+        output_query = "COPY ({0}) TO STDOUT WITH CSV HEADER".format(query)
+    
+        try: 
+            with open(file_name, 'w') as file:
+                self.db_cursor.copy_expert(output_query, file)
+                print("Successfully created the file")
+
+        except Exception as e:
+            print( f"There is some error occured {e}")
+            return None
